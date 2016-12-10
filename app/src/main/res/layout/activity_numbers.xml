@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_numbers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.danielveazey.countdownassistant.NumbersActivity">
+
+    <TextView
+        android:id="@+id/numbers_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/target_textview"
+        android:layout_below="@id/numbers_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="36sp"/>
+
+    <Button
+        android:id="@+id/four_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/four_big"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/three_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/three_big"
+        android:layout_above="@id/four_big"/>
+
+    <Button
+        android:id="@+id/two_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/three_big"
+        android:text="@string/two_big"/>
+
+    <Button
+        android:id="@+id/one_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/two_big"
+        android:text="@string/one_big"/>
+
+    <Button
+        android:id="@+id/zero_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/one_big"
+        android:text="@string/zero_big"/>
+
+    <Button
+        android:id="@id/timer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/timer_button"/>
+
+</RelativeLayout>

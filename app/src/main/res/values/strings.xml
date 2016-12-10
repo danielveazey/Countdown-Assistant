@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Countdown Assistant</string>
+    <string name="letters_round">Letters round</string>
+    <string name="numbers_round">Numbers round</string>
+    <string name="first_letter">*</string>
+    <string name="second_letter">*</string>
+    <string name="third_letter">*</string>
+    <string name="fourth_letter">*</string>
+    <string name="fifth_letter">*</string>
+    <string name="sixth_letter">*</string>
+    <string name="seventh_letter">*</string>
+    <string name="eighth_letter">*</string>
+    <string name="ninth_letter">*</string>
+    <string name="consonant_button">Consonant</string>
+    <string name="vowel_button">Vowel</string>
+    <string name="timer_button">Start timer</string>
+    <string name="zero_big">0 big,\n6 small</string>
+    <string name="one_big">1 big,\n5 small</string>
+    <string name="two_big">2 big,\n4 small</string>
+    <string name="three_big">3 big,\n3 small</string>
+    <string name="four_big">4 big,\n2 small</string>
+</resources>

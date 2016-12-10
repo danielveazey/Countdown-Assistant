@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_letters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.danielveazey.countdownassistant.LettersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/first_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/first_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/second_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/first_letter"
+            android:padding="8dp"
+            android:text="@string/second_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/third_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/second_letter"
+            android:padding="8dp"
+            android:text="@string/third_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fourth_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/third_letter"
+            android:padding="8dp"
+            android:text="@string/fourth_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fifth_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/fourth_letter"
+            android:padding="8dp"
+            android:text="@string/fifth_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sixth_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/fifth_letter"
+            android:padding="8dp"
+            android:text="@string/sixth_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/seventh_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/sixth_letter"
+            android:padding="8dp"
+            android:text="@string/seventh_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/eighth_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/seventh_letter"
+            android:padding="8dp"
+            android:text="@string/eighth_letter"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ninth_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/eighth_letter"
+            android:padding="8dp"
+            android:text="@string/ninth_letter"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/timer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_button"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_above="@id/timer_layout"
+        android:paddingBottom="24dp">
+
+
+        <Button
+            android:id="@+id/consonant_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consonant_button"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/vowel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/consonant_button"
+            android:text="@string/vowel_button"
+            android:layout_marginStart="16dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
